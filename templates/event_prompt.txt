@@ -1,0 +1,152 @@
+You are a professional academic report writer. Create a realistic {event_type} report for a college event.
+
+**REPORT STYLE:** {report_style}
+- If "Concise & Realistic": Use simple, clear language. Keep content brief and genuine.
+- If "Detailed & Comprehensive": Use more academic language and elaborate sections.
+
+**CRITICAL PHOTO SECTION RULE:**
+Photos Uploaded = "{photos_available}"
+- IF "{photos_available}" = "No": DO NOT include any Event Documentation section. Skip from section 10 directly to Conclusion as section 11.
+- IF "{photos_available}" = "Yes": Include Event Documentation as section 11, then Conclusion as section 12.
+
+**IMPORTANT GUIDELINES:**
+- Use ONLY the provided information - do not over-elaborate unless detailed style is selected
+- Keep language professional but natural (avoid overly academic jargon unless detailed style)
+- If a field is empty, generate minimal realistic content
+- Avoid clichéd phrases like "in an era of", "rapidly evolving", "digital transformation"
+- Use proper bullet point formatting (standard • symbol)
+- Make content sound genuine and institutional, not artificial
+- For concise style: Keep sections focused and to-the-point
+- For detailed style: Expand appropriately while maintaining authenticity
+- STRICTLY follow the photo section rule above
+
+**EVENT DETAILS:**
+College: {college_name}
+Department: {dept_name}
+Event Title: {event_title}
+Event Type: {event_type}
+Date: {date}
+Venue: {venue}
+Organizer: {organizer}
+Speaker(s): {speaker}
+Brief Description: {description}
+Key Topics: {key_topics}
+Attendance: {attendance} students
+Specific Objectives: {objectives}
+Outcomes/Feedback: {outcomes}
+Student Quotes: {quotes}
+Participants: {participants}
+Photos Uploaded: {photos_available}
+
+**REPORT FORMAT:**
+
+**1. Event Title**
+{event_title}
+
+**2. College and Department Information**
+{college_name}
+{dept_name}
+
+**3. Date and Venue**
+**Date:** {date}
+**Venue:** {venue}
+
+**4. Organizer and Speaker(s)**
+**Organizer:** {organizer}
+**Speaker(s):** {speaker}
+
+**5. Introduction**
+[Write a focused 60-80 word introduction that:
+- States the organizer and basic event details
+- Mentions the purpose in simple terms
+- Brief context about why this topic is relevant
+- Keep it direct and factual]
+
+**6. Objectives**
+[Generate 4-5 clear, simple objectives. Use provided objectives if available, otherwise create basic relevant ones:]
+• [Simple objective 1]
+• [Simple objective 2] 
+• [Simple objective 3]
+• [Simple objective 4]
+
+**7. Key Highlights and Activities**
+[Generate 4-5 realistic activities that would actually happen in this {event_type}. Keep descriptions brief and factual:]
+• **[Opening/Welcome]:** [Brief description]
+• **[Main presentation/session]:** [What was covered]
+• **[Interactive element]:** [How students participated]
+• **[Q&A or discussion]:** [Topics discussed]
+• **[Closing]:** [How it ended]
+
+**8. Learning Outcomes and Feedback**
+[Generate 4-5 simple, realistic outcomes. Keep them brief and measurable:]
+• [Basic knowledge gained]
+• [Understanding improved in specific area]
+• [Awareness increased about topic]
+• [Positive feedback about session quality]
+• [Interest generated for further learning]
+
+**9. Participant Testimonials**
+[Generate 2-3 short, realistic quotes. Keep them simple and authentic:]
+"[Simple quote about what they learned]" - [Common Indian name], [Program], [Year]
+
+"[Brief quote about practical value or experience]" - [Common Indian name], [Program], [Year]
+
+**10. Participants and Contributors**
+**Speaker:**
+• {speaker}
+
+**Faculty Coordinators:**
+• [Generate 1-2 realistic faculty names with designations]
+
+**Student Organizers ({organizer}):**
+• [Generate 2-3 student names with simple roles]
+
+**Participants:**
+• **Total Attendance:** {attendance} students
+• [Simple breakdown by year/program]
+
+**CRITICAL INSTRUCTION FOR SECTION 11:**
+- IF Photos Uploaded = "No": DO NOT include section 11 at all. Skip directly from section 10 to section 11 as Conclusion.
+- IF Photos Uploaded = "Yes": Include section 11 as Event Documentation, then section 12 as Conclusion.
+
+[Only include the following section if Photos Uploaded = "Yes"]
+**11. Event Documentation**
+• **Photo 1:** [Caption about speaker/presentation]
+• **Photo 2:** [Caption about student participation] 
+• **Photo 3:** [Caption about activities]
+• **Photo 4:** [Caption about group photo]
+
+**[IF Photos Uploaded = "No", this should be section 11. IF Photos Uploaded = "Yes", this should be section 12]**
+**Conclusion**
+[Write a brief 40-60 word conclusion that:
+- States the event was successful
+- Thanks the speaker and organizers briefly
+- Mentions student benefit in simple terms
+- Keep it concise and genuine]
+
+**[IF Photos Uploaded = "No", this should be section 12. IF Photos Uploaded = "Yes", this should be section 13]**
+**Report Authorization**
+**Prepared by:**
+[Student name from organizers]
+[Role], {organizer}
+{college_name}
+
+**Reviewed by:**
+[Faculty name]
+Faculty Coordinator, {dept_name}
+
+**Approved by:**
+[Department head name]
+Head of Department, {dept_name}
+{college_name}
+
+**Report Date:** [Date one day after event]
+
+**CRITICAL REQUIREMENTS:**
+- Keep content realistic and concise
+- Use provided information strictly
+- Avoid over-elaboration and fancy language
+- Generate only essential missing details
+- Use proper bullet formatting
+- Make it sound authentic, not artificial
+- Focus on practical content over flowery language

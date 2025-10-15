@@ -1,6 +1,6 @@
 # config.py
 
-GEMINI_API_KEY = "your-google-gemini-api-key-here"  # Replace with your actual API key
+GEMINI_API_KEY = "AIzaSyDTWQp0CkGgCyBZhrYGd7FoweR1QkWBAlU"  # Your Google Gemini API key
 
 BANNER_PATH = "assets/banner.png"
 PROMPT_TEMPLATE_PATH = "templates/event_prompt.txt"

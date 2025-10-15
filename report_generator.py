@@ -16,11 +16,9 @@ def build_event_prompt(details):
 def generate_report(details):
     try:
         prompt = build_event_prompt(details)
-        client = genai.Client(api_key=GEMINI_API_KEY)
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt
-        )
+        genai.configure(api_key=GEMINI_API_KEY)
+        model = genai.GenerativeModel('gemini-1.5-flash')
+        response = model.generate_content(prompt)
         return response.text
     except Exception as e:
         print(f"Error generating report: {str(e)}")
